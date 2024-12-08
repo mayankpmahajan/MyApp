@@ -10,8 +10,15 @@
     "test": "jest"
   },
   "dependencies": {
+    "@nozbe/watermelondb": "^0.27.1",
+    "@react-native-community/netinfo": "^11.4.1",
+    "node-cron": "^3.0.3",
+    "pg": "^8.13.1",
     "react": "18.3.1",
-    "react-native": "0.76.3"
+    "react-native": "0.76.3",
+    "react-native-background-actions": "^4.0.1",
+    "react-native-background-timer": "^2.4.1",
+    "react-native-sqlite-storage": "^6.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -24,7 +31,11 @@
     "@react-native/eslint-config": "0.76.3",
     "@react-native/metro-config": "0.76.3",
     "@react-native/typescript-config": "0.76.3",
+    "@types/node-cron": "^3.0.11",
+    "@types/pg": "^8.11.10",
     "@types/react": "^18.2.6",
+    "@types/react-native-background-timer": "^2.0.2",
+    "@types/react-native-sqlite-storage": "^6.0.5",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.6.3",
     "eslint": "^8.19.0",
